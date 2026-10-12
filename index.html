@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Andes Café: gestión de ventas e inventario con Supabase y analítica en Looker Studio." />
+    <title>Andes Café · Panel</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%98%95%3C/text%3E%3C/svg%3E" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#/">☕ <span>Andes Café</span></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false">☰</button>
+      <nav id="nav" class="nav">
+        <a href="#/" data-route="">Dashboard</a>
+        <a href="#/ventas" data-route="ventas">Ventas</a>
+        <a href="#/productos" data-route="productos">Productos</a>
+        <a href="#/clientes" data-route="clientes">Clientes</a>
+        <a href="#/proveedores" data-route="proveedores">Proveedores</a>
+        <a href="#/compras" data-route="compras">Compras</a>
+        <a href="#/auditoria" data-route="auditoria">Auditoría</a>
+      </nav>
+    </header>
+    <main id="app" class="container" aria-live="polite"></main>
+    <div id="toasts" class="toasts" role="status"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
