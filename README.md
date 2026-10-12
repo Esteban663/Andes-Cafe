@@ -271,4 +271,3 @@ Las variables `VITE_*` se **incrustan en el momento del build**, así que deben 
 
 **GitHub Pages**: `vite.config.js` ya usa `base: './'`; compila en una acción de GitHub pasando las variables como *secrets* y publica `dist/`.
 
-
